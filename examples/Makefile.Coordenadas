@@ -1,0 +1,9 @@
+Coordenadas.o:
+	g++ -c ../src/Coordenadas.C -I../include/
+
+Coordenadas: Coordenadas.o
+	g++ -o ../bin/Coordenadas ../src/CoordenadasMain.C -I../include/ Coordenadas.o
+
+clean:
+	rm -rf *.o
+	rm -rf ../bin/*

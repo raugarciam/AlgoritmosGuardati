@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "Coordenadas.C": "cpp",
+        "Persona.C": "cpp",
+        "PersonaMain.C": "cpp",
+        "CoordenadasMain.C": "cpp"
+    }
+}
