@@ -7,6 +7,6 @@ class Triangulo{
         void setAltura(float);
         float getBase();
         float getAltura();
-        void calculaArea();
+        float calculaArea();
         void imprimeAtributos();
 };
