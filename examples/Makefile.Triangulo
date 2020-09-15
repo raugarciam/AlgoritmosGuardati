@@ -1,0 +1,9 @@
+Triangulo.o:
+	g++ -c ../src/Triangulo.C -I../include/
+
+Triangulo: Triangulo.o
+	g++ -o ../bin/Triangulo ../src/TrianguloMain.C -I../include/ Triangulo.o
+
+clean:
+	rm -rf *.o
+	rm -rf ../bin/*

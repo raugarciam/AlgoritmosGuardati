@@ -3,6 +3,8 @@
         "Coordenadas.C": "cpp",
         "Persona.C": "cpp",
         "PersonaMain.C": "cpp",
-        "CoordenadasMain.C": "cpp"
+        "CoordenadasMain.C": "cpp",
+        "Triangulo.C": "cpp",
+        "TrianguloMain.C": "cpp"
     }
 }
