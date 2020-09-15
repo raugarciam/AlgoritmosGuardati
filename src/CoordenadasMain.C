@@ -10,7 +10,7 @@ int main(){
 	ObjPunto.setCoordenadaX(1.0);
     ObjPunto.setCoordenadaY(2.0);
 
-	ObjPunto.imprimeCoordenadas;
+	ObjPunto.imprimeCoordenadas();
 
 	return 0;
 }
