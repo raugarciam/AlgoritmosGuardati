@@ -13,6 +13,6 @@ int main(int argc, const char** argv) {
     triangulo.imprimeAtributos();
 
     cout << "El area del triangulo es " << triangulo.calculaArea() << endl;
-    
+
     return 0;
 }
