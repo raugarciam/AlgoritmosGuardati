@@ -1,0 +1,10 @@
+Persona.o:
+	g++ -c ../src/Persona.C -I../include/
+
+Persona: Persona.o
+	g++ -o ../bin/Persona ../src/PersonaMain.C -I../include/ Persona.o
+
+clean:
+	rm -rf *.o
+	rm -rf ../bin/*
+

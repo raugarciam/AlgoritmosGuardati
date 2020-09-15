@@ -1,3 +1,7 @@
+#include <string>
+
+using namespace std;
+
 class Persona{
 	public:
 		string Nombre;
@@ -9,4 +13,6 @@ class Persona{
 		string getNombre();
 		string getDomicilio();
 		int getEdad();
-}
+		void imprimePersona();
+};
+
