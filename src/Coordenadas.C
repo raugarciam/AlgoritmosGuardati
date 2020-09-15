@@ -15,7 +15,7 @@ float Coordenadas::getCoordenadaX(){
     return this->CoordenadaX;
 }
 
-float Coordenadas::getCoordenadasY(){
+float Coordenadas::getCoordenadaY(){
     return this->CoordenadaY
 }
 
