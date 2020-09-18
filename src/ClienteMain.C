@@ -28,10 +28,20 @@ int main(int argc, char const *argv[])
     cout << "====================" << endl;
     ObjCliente2.imprimeDatos();
 
-    ObjCliente1.hacerRetiro(1000.00);
+    if (ObjCliente1.getTipoCuenta() == 1)
+    {
+        if (bjCliente1.hacerRetiro(1000.00))
+        {
+            cout << "\nRetiro realizado con exito" << endl;    
+        }else
+        {
+            cout << "No tiene saldo suficiente para realizar el retiro" << endl;
+        }
+        
+    }
     ObjCliente2.hacerDeposito(1000.0);
 
-    std::cout << "\nDespues de realizar las operaciones" << std::endl;
+    cout << "\nDespues de realizar las operaciones" << endl;
     ObjCliente1.imprimeDatos();
     cout << "====================" << endl;
     ObjCliente2.imprimeDatos();
