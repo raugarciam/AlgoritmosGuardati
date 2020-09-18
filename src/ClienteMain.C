@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
 
     if (ObjCliente1.getTipoCuenta() == 1)
     {
-        if (bjCliente1.hacerRetiro(1000.00))
+        if (ObjCliente1.hacerRetiro(1000.00))
         {
             cout << "\nRetiro realizado con exito" << endl;    
         }else
