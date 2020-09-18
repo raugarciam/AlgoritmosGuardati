@@ -13,7 +13,7 @@ private:
     int NumeroCuenta;
 public:
     void setNombre(string);
-    void setDireccion(string);
+    void setDomicilio(string);
     void setTelefono(string);
     void setSaldo(float);
     void setTipoCuenta(int);
@@ -25,7 +25,7 @@ public:
     int getTipoCuenta();
     int getNumeroCuenta();
     void imprimeDatos();
-    void hacerRetiro(float);
+    int hacerRetiro(float);
     void hacerDeposito(float);
 };
 

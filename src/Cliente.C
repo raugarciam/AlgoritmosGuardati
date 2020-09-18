@@ -5,8 +5,8 @@ void Cliente::setNombre(string _Nombre){
     this->Nombre = _Nombre;
 }
 
-void Cliente::setDomicilio(string _Domicilio){
-    this->Domicilio = _Domicilio;
+void Cliente::setDomicilio(string _Direccion){
+    this->Direccion = _Direccion;
 }
 
 void Cliente::setTelefono(string _Telefono){
@@ -30,7 +30,7 @@ string Cliente::getNombre(){
 }
 
 string Cliente::getDomicilio(){
-    return this->Domicilio;
+    return this->Direccion;
 }
 
 string Cliente::getTelefono(){
@@ -49,7 +49,7 @@ int Cliente::getNumeroCuenta(){
     return this->NumeroCuenta;
 }
 
-void Cliente::hacerRetiro(float _Monto){
+int Cliente::hacerRetiro(float _Monto){
     int Respuesta = 1;
 
     if ((this->Saldo - _Monto) < 0)
@@ -68,8 +68,8 @@ void Cliente::hacerDeposito(float _Monto){
 
 void Cliente::imprimeDatos(){
     cout << "Nombre: " << this->Nombre << endl;
-    cout << "Domicilio: " << this->Domicilio << endl;
+    cout << "Domicilio: " << this->Direccion << endl;
     cout << "Telefono: " << this->Telefono << endl;
-    cout << "Numero de Cuenta: " << this->numeroCuenta << endl;
-    cout << "Tipo de Cuenta: " << this->tipoCuenta << endl;
+    cout << "Numero de Cuenta: " << this->NumeroCuenta << endl;
+    cout << "Tipo de Cuenta: " << this->TipoCuenta << endl;
 }
