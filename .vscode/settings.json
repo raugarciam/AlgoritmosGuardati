@@ -7,6 +7,7 @@
         "Triangulo.C": "cpp",
         "TrianguloMain.C": "cpp",
         "Cliente.C": "cpp",
-        "ClienteMain.C": "cpp"
+        "ClienteMain.C": "cpp",
+        "iostream": "cpp"
     }
 }

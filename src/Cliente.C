@@ -72,4 +72,5 @@ void Cliente::imprimeDatos(){
     cout << "Telefono: " << this->Telefono << endl;
     cout << "Numero de Cuenta: " << this->NumeroCuenta << endl;
     cout << "Tipo de Cuenta: " << this->TipoCuenta << endl;
+    cout << "Saldo: " << this->Saldo << endl;
 }
