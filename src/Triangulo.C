@@ -19,7 +19,7 @@ float Triangulo::getAltura(){
     return this->Altura;
 }
 
-float Triangulo::caculaArea(){
+float Triangulo::area(){
     return this->Base * this->Altura / 2;
 }
 
