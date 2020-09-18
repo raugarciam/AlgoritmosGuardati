@@ -5,6 +5,8 @@
         "PersonaMain.C": "cpp",
         "CoordenadasMain.C": "cpp",
         "Triangulo.C": "cpp",
-        "TrianguloMain.C": "cpp"
+        "TrianguloMain.C": "cpp",
+        "Cliente.C": "cpp",
+        "ClienteMain.C": "cpp"
     }
 }

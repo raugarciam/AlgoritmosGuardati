@@ -1,0 +1,9 @@
+Cliente.o:
+	g++ -c ../src/Cliente.C -I../include/
+
+Cliente: Cliente.o
+	g++ -o ../bin/Cliente ../src/ClienteMain.C -I../include/ Cliente.o
+
+clean:
+	rm -rf *.o
+	rm -rf ../bin/*
