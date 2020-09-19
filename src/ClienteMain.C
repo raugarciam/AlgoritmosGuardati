@@ -7,8 +7,8 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     float SaldoCliente;
-    Cliente ObjCliente1("Raul Garcia", "Libertadores 1314", "729 444 1538", 280000, 2, 2);
-    Cliente ObjCliente2("Laura Gonzalez", "722 885 2976", 4000);
+    Cliente ObjCliente1("Raul Garcia", "Libertadores 1314", "729 444 1538", 280000.00, 2, 2);
+    Cliente ObjCliente2("Laura Gonzalez", "722 885 2976", 4000.00);
     
     /*ObjCliente1.setNombre("Raul Garcia");
     ObjCliente1.setDomicilio("Libertadores 1314");
