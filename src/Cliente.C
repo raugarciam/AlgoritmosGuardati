@@ -1,6 +1,25 @@
 #include <iostream>
 #include "../include/Cliente.H"
 
+Cliente::Cliente(string _Nombre, string _Telefono, float _Saldo){
+    this->Nombre = _Nombre;
+    this->Telefono = _Telefono;
+    this->Saldo = _Saldo;
+    this->Direccion = "Desconocida";
+    this->TipoCuenta = 0;
+    this->NumeroCuenta = -1;
+}
+
+Cliente::Cliente(string _Nombre, string _Direccion, string _Telefono, float _Saldo,
+                 int _TipoCuenta, int _NumeroCuenta){
+    this->Nombre = _Nombre;
+    this->Telefono = _Telefono;
+    this->Saldo = _Saldo;
+    this->Direccion = _Direccion;
+    this->TipoCuenta = _TipoCuenta;
+    this->NumeroCuenta = _NumeroCuenta;
+}
+
 void Cliente::setNombre(string _Nombre){
     this->Nombre = _Nombre;
 }

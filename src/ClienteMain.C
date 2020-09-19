@@ -7,10 +7,10 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     float SaldoCliente;
-    Cliente ObjCliente1;
-    Cliente ObjCliente2;
+    Cliente ObjCliente1("Raul Garcia", "Libertadores 1314", "729 444 1538", 280000, 2, 2);
+    Cliente ObjCliente2("Laura Gonzalez", "722 885 2976", 4000);
     
-    ObjCliente1.setNombre("Raul Garcia");
+    /*ObjCliente1.setNombre("Raul Garcia");
     ObjCliente1.setDomicilio("Libertadores 1314");
     ObjCliente1.setTelefono("729 444 1538");
     ObjCliente1.setSaldo(20000.00);
@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
     ObjCliente2.setTelefono("722 885 2967");
     ObjCliente2.setSaldo(10000.00);
     ObjCliente2.setTipoCuenta(2);
-    ObjCliente2.setNumeroCuenta(1235);
+    ObjCliente2.setNumeroCuenta(1235);*/
 
     ObjCliente1.imprimeDatos();
     cout << "====================" << endl;

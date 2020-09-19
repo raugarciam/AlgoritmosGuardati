@@ -27,5 +27,7 @@ public:
     void imprimeDatos();
     int hacerRetiro(float);
     void hacerDeposito(float);
+    Cliente(string, string, float);
+    Cliente(string, string, string, float _Saldo = 0, int _TipoCuenta = 1, int _NumeroCuenta = 0);
 };
 
