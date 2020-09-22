@@ -1,0 +1,9 @@
+Fecha.o:
+	g++ -c ../src/Fecha.C -I../include/
+
+Fecha: Fecha.o
+	g++ -o ../bin/Fecha ../src/FechaMain.C -I../include/ Fecha.o
+
+clean:
+	rm -rf *.o
+	rm -rf ../bin/*

@@ -8,6 +8,8 @@
         "TrianguloMain.C": "cpp",
         "Cliente.C": "cpp",
         "ClienteMain.C": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "Fecha.C": "cpp",
+        "FechaMain.C": "cpp"
     }
 }
