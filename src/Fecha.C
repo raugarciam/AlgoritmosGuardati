@@ -22,14 +22,14 @@ void Fecha::setAnio(int _Anio){
     this->Anio = _Anio;
 }
 
-int getDia(){
+int Fecha::getDia(){
     return this->Dia;
 }
 
-int getMes(){
+int Fecha::getMes(){
     return this->Mes;
 }
 
-int getAnio(){
+int Fecha::getAnio(){
     return this->Anio;
 }
